@@ -2,16 +2,18 @@
 
 @section('text')
 
-<form class="login100-form validate-form" method="POST" action="{{route('login')}}">
+
+
+<form class="login100-form validate-form" method="POST" action="{{ route('login') }}">
 @csrf
 					<center>
-						<img src="{{ asset('admin/images/logo.png')}}">
+						<img src="{{asset('admin/images/logo1.png') }}">
 					</center>
 					<span class="login100-form-title p-b-34 p-t-15">
 						Log in
 					</span>
 
-					<div class="wrap-input100 validate-input" data-validate="Enter username">
+					<div class="wrap-input100 validate-input" data-validate = "Enter username">
 						<input class="input100" type="text" name="username" placeholder="Username">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
@@ -32,5 +34,6 @@
 						</a>
 					</div>
 				</form>
+
 
 @endsection

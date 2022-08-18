@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\Admin\UserController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,13 +16,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
- Route::get('/', function () {
-     return view('welcome');
-  });
+Route::get('/', function () {
+    return view('welcome');
+});
 
- Auth::routes();
+Auth::routes();
 
- Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-//  Route::view('/', 'promotepage.home')->name('home');
-//  Route::view('/admin/home', 'adminpage.adminhome')->name('adminhome');
+//admin index
+Route::get('/admin/index', [HomeController::class, 'admin'])->name('admin');
+
+
+//route user
+Route::get('/admin/user/index',[UserController::class, 'index'])->name('user.index') ;
+
