@@ -1,5 +1,6 @@
 @extends('layouts.back-end.master')
 @section('content')
+
 <div class="card">
                             <h5 class="card-header">User</h5>
                             <div class="table-responsive text-nowrap">

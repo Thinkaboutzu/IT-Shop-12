@@ -53,7 +53,7 @@
 
             <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
                 <div class="app-brand demo">
-                    <a href="index.html" class="app-brand-link">
+                    <a href="{{route('admin') }}" class="app-brand-link">
                         <span class="app-brand-logo demo">
                         <img src="{{asset('back-end/assets/img/logoicon.png')}}" alt="">
                         </span>
@@ -87,14 +87,14 @@
                     </li>  
 
                     <li class="menu-item">
-                        <a href="category.html" class="menu-link">
+                        <a href="{{route('category.index') }}" class="menu-link">
                             <i class="menu-icon tf-icons bx bx-grid-alt"></i>
                             <div data-i18n="Analytics">Category</div>
                         </a>
                     </li>  
 
                     <li class="menu-item">
-                        <a href="product.html" class="menu-link">
+                        <a href="{{route('product.index') }}" class="menu-link">
                             <i class="menu-icon tf-icons bx bx-cart-alt"></i>
                             <div data-i18n="Analytics">Product</div>
                         </a>

@@ -114,7 +114,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="flex-grow-1">
-                                                    <span class="fw-semibold d-block">John Doe</span>
+                                                    <span class="fw-semibold d-block">Boonyakit</span>
                                                     <small class="text-muted">Admin</small>
                                                 </div>
                                             </div>
@@ -124,7 +124,7 @@
                                         <div class="dropdown-divider"></div>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="profile.html">
+                                        <a class="dropdown-item" href="{{route('home')}}">
                                             <i class="bx bx-user me-2"></i>
                                             <span class="align-middle">My Profile</span>
                                         </a>
@@ -162,7 +162,7 @@
                                 <div class="card-body">
                                     <h3 class="card-title">My Profile</h3>
                                     <p class="card-text">
-                                        Name : Nanarong
+                                        Name : Boonyakit
                                     </p>
 
                                     <p class="card-text">
@@ -170,11 +170,11 @@
                                     </p>
 
                                     <p class="card-text">
-                                        Email : taerobot1029@gmail.com
+                                        Email : tew_ki24@hotmail.com
                                     </p>
 
                                     <p class="card-text">
-                                        Phone : 097-212-6801
+                                        Phone : 062-003-9944
                                     </p>
 
                                     <a href="edit_profile.html" class="btn btn-outline-success">Home</a>

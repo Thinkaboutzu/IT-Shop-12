@@ -1,5 +1,6 @@
 @extends('layouts.back-end.master')
 @section('content')
+
 <div class="col-lg-12 col-md-4 order-1">
                                 <div class="row">
                                     <div class="col-lg-4 col-md-12 col-3 mb-4">
@@ -58,4 +59,5 @@
                                 </div>
                                 
                             </div>
+                            
 @endsection
