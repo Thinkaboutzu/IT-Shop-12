@@ -98,7 +98,7 @@
                                 <a class="nav-link dropdown-toggle hide-arrow" href="#"
                                     data-bs-toggle="dropdown">
                                     <div class="avatar avatar-online">
-                                        <img src="{{asset('back-end/assets/img/avatars/user.jpg')}}" alt
+                                        <img src="" alt
                                             class="w-px-40 h-auto rounded-circle" />
                                     </div>
                                 </a>
@@ -108,12 +108,12 @@
                                             <div class="d-flex">
                                                 <div class="flex-shrink-0 me-3">
                                                     <div class="avatar avatar-online">
-                                                        <img src="{{asset('back-end/assets/img/avatars/user.jpg')}}" alt
+                                                        <img src="" alt
                                                             class="w-px-40 h-auto rounded-circle" />
                                                     </div>
                                                 </div>
                                                 <div class="flex-grow-1">
-                                                    <span class="fw-semibold d-block">Boonyakit</span>
+                                                    <span class="fw-semibold d-block">Teerawat</span>
                                                     <small class="text-muted">Admin</small>
                                                 </div>
                                             </div>
@@ -157,11 +157,11 @@
 
                     <div class="col-md-6 col-lg-4 mb-6 mx-auto">
                             <div class="card h-50">
-                                <img class="card-img" src="{{asset('back-end/assets/img/avatars/user.jpg')}}" alt="" />
+                                <img class="card-img" src="" alt="" />
                                 <div class="card-body">
                                     <h3 class="card-title">My Profile</h3>
                                     <p class="card-text">
-                                        Name : Boonyakit
+                                        Name : Teerawat
                                     </p>
 
                                     <p class="card-text">
@@ -169,11 +169,11 @@
                                     </p>
 
                                     <p class="card-text">
-                                        Email : tew_ki24@hotmail.com
+                                        Email : benkyoudake0@gmail.com
                                     </p>
 
                                     <p class="card-text">
-                                        Phone : 062-003-9944
+                                        Phone : 097-272-6525
                                     </p>
 
                                     <a href="edit_profile.html" class="btn btn-outline-success">Home</a>
