@@ -139,7 +139,7 @@
                                             <div class="d-flex">
                                                 <div class="flex-shrink-0 me-3">
                                                     <div class="avatar avatar-online">
-                                                        <img src="{{asset('')}}" alt
+                                                        <img src="{{asset('back-end/assets/img/avatars/user.jpg')}}" alt
                                                             class="w-px-40 h-auto rounded-circle" />
                                                     </div>
                                                 </div>
