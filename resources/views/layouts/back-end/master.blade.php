@@ -55,7 +55,7 @@
                 <div class="app-brand demo">
                     <a href="{{route('admin') }}" class="app-brand-link">
                         <span class="app-brand-logo demo">
-                        <img src="" alt="">
+                        <img src="{{asset('back-end/assets/img/logoicon.png')}}" alt="">
                         </span>
                         <span class="app-brand-text demo menu-text fw-bolder ms-2">
                             IT Shop
@@ -129,7 +129,7 @@
                                 <a class="nav-link dropdown-toggle hide-arrow" href="#"
                                     data-bs-toggle="dropdown">
                                     <div class="avatar avatar-online">
-                                        <img src="" alt
+                                        <img src="{{asset('back-end/assets/img/avatars/user.jpg')}}" alt
                                             class="w-px-40 h-auto rounded-circle" />
                                     </div>
                                 </a>
@@ -139,7 +139,7 @@
                                             <div class="d-flex">
                                                 <div class="flex-shrink-0 me-3">
                                                     <div class="avatar avatar-online">
-                                                        <img src="" alt
+                                                        <img src="{{asset('back-end/assets/img/avatars/user.jpg')}}" alt
                                                             class="w-px-40 h-auto rounded-circle" />
                                                     </div>
                                                 </div>
